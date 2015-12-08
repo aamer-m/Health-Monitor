@@ -23,7 +23,6 @@
 		23212E5F1BAF0DBF0063D944 /* Demo_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23212E4F1BAF0AE10063D944 /* Demo_Tests.m */; };
 		2322359B1C0F9592009F112C /* allergies.json in Resources */ = {isa = PBXBuildFile; fileRef = 2322359A1C0F9592009F112C /* allergies.json */; };
 		2322359E1C0F9F23009F112C /* AllergyInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2322359D1C0F9F23009F112C /* AllergyInformation.m */; };
-		233465EC1C14AD1C0087271B /* NSString+SHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 233465EB1C14AD1C0087271B /* NSString+SHA1.m */; };
 		234EEA411BA3717E002385F5 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 234EEA401BA3717E002385F5 /* LogInViewController.m */; };
 		234EEA441BA3741F002385F5 /* SigningUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 234EEA431BA3741F002385F5 /* SigningUpViewController.m */; };
 		237888E61BFD25E60035E007 /* Health.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237888E41BFD25E60035E007 /* Health.storyboard */; };
@@ -111,8 +110,6 @@
 		2322359A1C0F9592009F112C /* allergies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = allergies.json; path = ../../allergies.json; sourceTree = "<group>"; };
 		2322359C1C0F9F23009F112C /* AllergyInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllergyInformation.h; sourceTree = "<group>"; };
 		2322359D1C0F9F23009F112C /* AllergyInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllergyInformation.m; sourceTree = "<group>"; };
-		233465EA1C14AD1C0087271B /* NSString+SHA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SHA1.h"; path = "../../../../../Downloads/NSStringSHA1/NSString+SHA1.h"; sourceTree = "<group>"; };
-		233465EB1C14AD1C0087271B /* NSString+SHA1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SHA1.m"; path = "../../../../../Downloads/NSStringSHA1/NSString+SHA1.m"; sourceTree = "<group>"; };
 		234EEA3F1BA3717E002385F5 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
 		234EEA401BA3717E002385F5 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		234EEA421BA3741F002385F5 /* SigningUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigningUpViewController.h; sourceTree = "<group>"; };
@@ -230,8 +227,6 @@
 		237888FC1BFD2DE00035E007 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				233465EA1C14AD1C0087271B /* NSString+SHA1.h */,
-				233465EB1C14AD1C0087271B /* NSString+SHA1.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -577,7 +572,6 @@
 				231A66CF1BFFAF6900EE5FD9 /* BaseViewController.m in Sources */,
 				23D904561BA0AB9D0000CEF0 /* AppDelegate.m in Sources */,
 				237B91331BAC7EF3009569DE /* AccountInformation.m in Sources */,
-				233465EC1C14AD1C0087271B /* NSString+SHA1.m in Sources */,
 				23A960201BAD185100E390D2 /* Helper.m in Sources */,
 				237B91361BAC89B8009569DE /* LoginInformation.m in Sources */,
 				230C34E11C0CD3E90047BE40 /* DashboardViewController.m in Sources */,
