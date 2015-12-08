@@ -18,10 +18,10 @@ xcuserdata
 *.moved-aside
 *.xcuserstate
 *.xcscmblueprint
+*.xcbkptlist
 
 ## Obj-C/Swift specific
 *.hmap
 *.ipa
 
 xcschememanagement.plist
-*.xcbkptlist
