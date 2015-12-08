@@ -110,12 +110,12 @@
                     <navigationItem key="navigationItem" id="H4b-XD-C4p"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <connections>
-                        <segue destination="sr2-sJ-eHH" kind="presentation" identifier="login2Create" modalTransitionStyle="flipHorizontal" id="9M4-qa-yRy"/>
+                        <segue destination="sr2-sJ-eHH" kind="presentation" identifier="login2Create" modalPresentationStyle="overFullScreen" id="Bn8-bn-dip"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="831" y="-118"/>
+            <point key="canvasLocation" x="688" y="-118"/>
         </scene>
         <!--Signing Up View Controller-->
         <scene sceneID="kSc-Ze-k8T">
@@ -327,7 +327,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nmo-N4-APD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1585" y="-118"/>
+            <point key="canvasLocation" x="1410" y="-118"/>
         </scene>
         <!--Root-->
         <scene sceneID="VhF-fb-lbl">

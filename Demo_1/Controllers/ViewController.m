@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "LoginInformation.h"
+#import "SigningUpViewController.h"
 #import "Constants.h"
 
 @interface ViewController ()<UITextFieldDelegate>
@@ -27,11 +28,6 @@
     [super viewDidLoad];
     self.loginInformation = [[LoginInformation alloc] init];
     [self setNeedsStatusBarAppearanceUpdate];
-}
-
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-    self.navigationController.navigationBar.hidden = YES;
 }
 
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
@@ -68,7 +64,7 @@
 }
 
 - (IBAction)signUpTapped:(id)sender {
-    [self performSegueWithIdentifier:@"login2Create" sender:sender];
+    [self performSegueWithIdentifier:@"login2Create" sender:self];
 }
 
 - (IBAction)loginTapped:(id)sender {

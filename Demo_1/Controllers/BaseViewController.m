@@ -44,14 +44,6 @@
     
 }
 
-//- (BOOL)shouldAutorotate {
-//    if ([activeController isKindOfClass:[ViewController class]] ||
-//        [activeController.presentedViewController isKindOfClass:[ViewController class]]) {
-//        return TRUE;
-//    }
-//    return FALSE;
-//}
-
 - (void)loggedIn {
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Root" bundle:nil];
     UIViewController *viewController = [storyboard instantiateInitialViewController];
@@ -79,6 +71,7 @@
     viewController.view.frame = self.view.frame;
     viewController.view.layer.transform = CATransform3DMakeTranslation(0, viewController.view.frame.size.height, 0);
     [self.view addSubview:viewController.view];
+    
     
     [UIView animateWithDuration:0.66 delay:0 usingSpringWithDamping:0.85 initialSpringVelocity:0.5 options:UIViewAnimationOptionCurveEaseInOut animations:^{
         viewController.view.layer.transform = CATransform3DIdentity;
