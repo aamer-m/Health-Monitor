@@ -36,11 +36,6 @@ static NSString * const DIGIT_EYES_UPC_SEARCH_URL =  @"https://www.digit-eyes.co
     self.scannerView.hidden = TRUE;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-
-}
 - (IBAction)buttonTapped:(id)sender {
     dispatch_async(dispatch_get_main_queue(), ^{
         self.scannerView.hidden = FALSE;
@@ -80,15 +75,6 @@ static NSString * const DIGIT_EYES_UPC_SEARCH_URL =  @"https://www.digit-eyes.co
     });
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 - (void)fetchIngredientsForBarcode:(NSString *)barcodeString {
     

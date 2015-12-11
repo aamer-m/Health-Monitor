@@ -51,17 +51,7 @@
     [self.collectionView registerNib:[UINib nibWithNibName:@"CollectionViewCell" bundle:nil] forCellWithReuseIdentifier:@"cell"];
     self.titles = @[@"Allergies", @"Weight Graph", @"Recent Health History", @"Scan barcode for Allergy"];
     self.automaticallyAdjustsScrollViewInsets = FALSE;
-//    UIColor *lightGreenColor = [UIColor colorWithRed:(55.0/255) green:(194.0/255) blue:(117.0/255) alpha:1.0];
-    
-//    self.collectionView.layer.borderColor = lightGreenColor.CGColor;
-//    self.collectionView.layer.cornerRadius = 3.0;
-//    self.collectionView.layer.borderWidth = 4.0f;
 
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (BOOL)shouldAutorotate {
@@ -96,19 +86,5 @@
             break;
     }
 }
-
-
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    
-}
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
