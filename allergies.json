@@ -1,0 +1,98 @@
+{
+    "allergies": [{
+                  "name": "Food Allergy",
+                  "imageURL": "http://acaai.org/images/food-allergy.png",
+                  "hasAllergy": true,
+                  "triggers":[
+                              "Milk",
+                              "Eggs",
+                              "Peanuts",
+                              "Soy",
+                              "Wheat",
+                              "Fish",
+                              "ShellFish",
+                              "Corn",
+                              "Gelatin",
+                              "Meat",
+                              ]
+                  }, {
+                  "name": "Skin Allergy",
+                  "imageURL": "http://acaai.org/images/skin-allergy.png",
+                  "hasAllergy": true,
+                  "triggers": [
+                               "Pollens",
+                               "Nick",
+                               "Gold",
+                               "Thimerosal",
+                               "Neomycin sulfate",
+                               "Fragrance mix",
+                               "Formaldehyde",
+                               "Cobalt Chloride",
+                               "Bacitracin",
+                               "Quaternium 15",
+                               ]
+                  }, {
+                  "name": "Dust Allergy",
+                  "imageURL": "http://acaai.org/images/dust-allergy.png",
+                  "hasAllergy": true,
+                  "triggers": [
+                               "Dust mites"
+                               ]
+                  }, {
+                  "name": "Insect Sting Allergy",
+                  "imageURL": "http://acaai.org/images/insect-sting-allergy.png",
+                  "hasAllergy": false,
+                  "triggers": [
+                               "Bees",
+                               "Ants"
+                               ]
+                  }, {
+                  "name": "Dog & Cat Allergy",
+                  "imageURL": "http://acaai.org/images/pet-allergy.png",
+                  "hasAllergy": false,
+                  "triggers": [
+                               ]
+                  }, {
+                  "name": "Eye Allergy",
+                  "imageURL": "http://acaai.org/images/eye-allergy.png",
+                  "hasAllergy": false,
+                  "triggers": [
+                               ]
+                  }, {
+                  "name": "Drug Allergy",
+                  "imageURL": "http://acaai.org/images/drug-allergy.png",
+                  "hasAllergy": true,
+                  "triggers": [
+                               ]
+                  }, {
+                  "name": "Hay Fever Allergy",
+                  "imageURL": "http://acaai.org/images/hayfever-allergy.png",
+                  "hasAllergy": true,
+                  "triggers": [
+                               ]
+                  }, {
+                  "name": "Latex Allergy",
+                  "imageURL": "http://acaai.org/images/latex-allergy.png",
+                  "hasAllergy": false,
+                  "triggers": [
+                               ]
+                  }, {
+                  "name": "Mold Allergy",
+                  "imageURL": "http://acaai.org/images/mold-allergy.png",
+                  "hasAllergy": true,
+                  "triggers": [
+                               ]
+                  }, {
+                  "name": "Sinusitis Allergy",
+                  "imageURL": "http://acaai.org/images/sinusitis-allergy.png",
+                  "hasAllergy": false,
+                  "triggers": [
+                               ]
+                  }, {
+                  "name": "Cockroach Allergy",
+                  "imageURL": "http://acaai.org/images/cockroach-allergy.png",
+                  "hasAllergy": true,
+                  "triggers": [
+                               ]
+                  }]
+}

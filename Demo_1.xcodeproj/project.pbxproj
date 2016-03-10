@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23022A061C9211B300DC92C7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 23022A051C9211B300DC92C7 /* README.md */; };
 		230C34E11C0CD3E90047BE40 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230C34E01C0CD3E90047BE40 /* DashboardViewController.m */; };
 		230C34E61C0CF50B0047BE40 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 230C34E51C0CF50B0047BE40 /* CollectionViewCell.m */; };
 		230C34E81C0CF7D70047BE40 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 230C34E71C0CF7D70047BE40 /* CollectionViewCell.xib */; };
@@ -85,6 +86,7 @@
 
 /* Begin PBXFileReference section */
 		01AC5C193D1382D0C92B791F /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23022A051C9211B300DC92C7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		230C34DF1C0CD3E90047BE40 /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
 		230C34E01C0CD3E90047BE40 /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
 		230C34E41C0CF50B0047BE40 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewCell.h; path = Views/CollectionViewCell.h; sourceTree = "<group>"; };
@@ -107,7 +109,7 @@
 		23212E551BAF0D3C0063D944 /* Demo_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23212E571BAF0D3D0063D944 /* Demo_1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_1UITests.m; sourceTree = "<group>"; };
 		23212E591BAF0D3D0063D944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2322359A1C0F9592009F112C /* allergies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = allergies.json; path = ../../allergies.json; sourceTree = "<group>"; };
+		2322359A1C0F9592009F112C /* allergies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = allergies.json; path = ../allergies.json; sourceTree = "<group>"; };
 		2322359C1C0F9F23009F112C /* AllergyInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllergyInformation.h; sourceTree = "<group>"; };
 		2322359D1C0F9F23009F112C /* AllergyInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllergyInformation.m; sourceTree = "<group>"; };
 		234EEA3F1BA3717E002385F5 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
@@ -294,6 +296,7 @@
 		23D904441BA0AB9D0000CEF0 = {
 			isa = PBXGroup;
 			children = (
+				23022A051C9211B300DC92C7 /* README.md */,
 				23D9044F1BA0AB9D0000CEF0 /* Demo_1 */,
 				23D904691BA0AB9D0000CEF0 /* Demo_1Tests */,
 				23212E561BAF0D3D0063D944 /* Demo_1UITests */,
@@ -571,6 +574,7 @@
 				23D904591BA0AB9D0000CEF0 /* ViewController.m in Sources */,
 				231A66CF1BFFAF6900EE5FD9 /* BaseViewController.m in Sources */,
 				23D904561BA0AB9D0000CEF0 /* AppDelegate.m in Sources */,
+				23022A061C9211B300DC92C7 /* README.md in Sources */,
 				237B91331BAC7EF3009569DE /* AccountInformation.m in Sources */,
 				23A960201BAD185100E390D2 /* Helper.m in Sources */,
 				237B91361BAC89B8009569DE /* LoginInformation.m in Sources */,
@@ -763,7 +767,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "uc.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -781,7 +785,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "uc.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
