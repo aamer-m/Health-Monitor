@@ -14,5 +14,5 @@ It uses a sample allergies list.
 
 Cocoapods Dependencies:
 -----------------------
-*Charts
-*MTBBarcodeScanner
+* Charts
+* MTBBarcodeScanner
