@@ -1,0 +1,4 @@
+language: objective-c
+xcode_workspace: Health-Monitor.xcworkspace
+xcode_scheme: Debug
+xcode_sdk: iphonesimulator9.2
