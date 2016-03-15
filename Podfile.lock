@@ -1,13 +1,15 @@
 PODS:
-  - Charts (2.1.6)
-  - MTBBarcodeScanner (1.8.10)
+  - Charts (2.2.3):
+    - Charts/Core (= 2.2.3)
+  - Charts/Core (2.2.3)
+  - MTBBarcodeScanner (1.9.1)
 
 DEPENDENCIES:
   - Charts
   - MTBBarcodeScanner
 
 SPEC CHECKSUMS:
-  Charts: 5e1e5ac23898e5b09d226a2fc3e9d86bc281937e
-  MTBBarcodeScanner: 20bdb750b6f7ef34d7fdf6bf7831a69b45a3d08f
+  Charts: f54267bb3f0f0e74520c6f248517cf5074dfd6fc
+  MTBBarcodeScanner: d65037ab37f0932b46e11a51e98978593424d64e
 
 COCOAPODS: 0.39.0
