@@ -1,4 +1,4 @@
 language: objective-c
-xcode_workspace: Health-Monitor.xcworkspace
-xcode_scheme: Health-Monitor
-xcode_sdk: iphonesimulator9.2
+script:
+ - xctool -scheme Health-Monitor -workspace Health-Monitor.xcworkspace -configuration Debug -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO 
+ - xctool test -scheme Health-Monitor -workspace Health-Monitor.xcworkspace -configuration Debug -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO 

@@ -1,6 +1,9 @@
 Health-Monitor
 ==============
 
+### Build-Status
+[![Build Status](https://travis-ci.org/aamer-m/Health-Monitor.svg?branch=master)](https://travis-ci.org/aamer-m/Health-Monitor.svg?branch=master)
+
 Health Monitor application
 
 > It mainly can be used while shopping food item. User can check if the particular food item contains 
