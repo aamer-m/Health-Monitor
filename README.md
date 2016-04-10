@@ -2,7 +2,7 @@ Health-Monitor
 ==============
 
 ### Build-Status
-[![Build Status](https://travis-ci.org/aamer-m/Health-Monitor.svg?branch=master)](https://travis-ci.org/aamer-m/Health-Monitor.svg?branch=master)![codecov.io](http://codecov.io/github/aamer-m/Health-Monitor/coverage.svg?branch=master)](https://codecov.io/github/aamer-m/Health-Monitor?branch=master)
+[![Build Status](https://travis-ci.org/aamer-m/Health-Monitor.svg?branch=master)](https://travis-ci.org/aamer-m/Health-Monitor.svg?branch=master)[![codecov.io](http://codecov.io/github/aamer-m/Health-Monitor/coverage.svg?branch=master)](https://codecov.io/github/aamer-m/Health-Monitor?branch=master)
 
 Health Monitor application
 
