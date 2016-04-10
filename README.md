@@ -2,7 +2,7 @@ Health-Monitor
 ==============
 
 ### Build-Status
-[![Build Status](https://travis-ci.org/aamer-m/Health-Monitor.svg?branch=master)](https://travis-ci.org/aamer-m/Health-Monitor.svg?branch=master)
+[![Build Status](https://travis-ci.org/aamer-m/Health-Monitor.svg?branch=master)](https://travis-ci.org/aamer-m/Health-Monitor.svg?branch=master)![codecov.io](http://codecov.io/github/aamer-m/Health-Monitor/coverage.svg?branch=master)](https://codecov.io/github/aamer-m/Health-Monitor?branch=master)
 
 Health Monitor application
 
@@ -10,8 +10,8 @@ Health Monitor application
 > allergic ingredients, which they can customize. The api to check for the ingredients call may 
 > not work, as it is depended on an external service.
 
-sample username : abcd (minimum 4 characters)
-sample password : abcdefg (minimum 6 characters)
+sample username : abcd (minimum 4 characters)  
+sample password : abcdefg (minimum 6 characters)  
 
 It uses a sample allergies list.
 
